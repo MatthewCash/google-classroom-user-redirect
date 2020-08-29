@@ -45,7 +45,7 @@
         if (changes['userNum']) userNum = changes['userNum'].newValue;
     });
 
-    chrome.runtime.onInstalled.addListener(function (details) {
+    chrome.runtime.onInstalled.addListener(details => {
         if (details.reason !== 'install') return;
 
         chrome.storage.sync.set({ userNum: 1 });
