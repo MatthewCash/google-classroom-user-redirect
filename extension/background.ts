@@ -33,7 +33,9 @@
 
             return { redirectUrl };
         },
-        { urls: ['<all_urls>'] },
+        {
+            urls: ['*://classroom.google.com/*']
+        },
         ['blocking']
     );
 
