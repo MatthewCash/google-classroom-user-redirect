@@ -27,7 +27,7 @@
                 // Insert if no user
                 redirectUrl = details.url.replace(
                     '//classroom.google.com',
-                    '//classroom.google.com/u/1'
+                    '//classroom.google.com/u/' + userNum
                 );
             }
 
