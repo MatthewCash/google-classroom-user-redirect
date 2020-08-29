@@ -5,19 +5,21 @@ Useful if your primary Google account is not your education account
 
 ## Installation with Chrome Web Store
 
-Coming Soon, for now use Unpacked installation
+Coming Soon, for now use [Manual Installation](t#manual-installation-from-releases)
 
-## Installation (Unpacked) Instructions
+## Manual Installation from Releases
+
+Visit the [Releases Page](https://github.com/MatthewCash/google-classroom-user-redirect/releases) and follow the provided instructions
+
+## Unpacked Installation Instructions (Not Recommended)
+
+1. Clone Repo
+2. Install Dependencies and Compile Typescript
 
 ```sh
-# 1. Install Dependencies and Compile TypeScript
-npm i && npx tsc
-
-# 2. Navigate to Extensions Page (chrome://extensions)
-
-# 3. Enable Developer Mode
-
-# 4. Select "Load unpacked"
-
-# 5. Provide "extension" folder
+npm i && tsc
 ```
+
+3. Navigate to Extensions Page (chrome://extensions)
+4. Enable Developer Mode
+5. Select "Load unpacked" and provide the "extension" folder

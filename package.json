@@ -4,12 +4,14 @@
     "description": "Redirects all Google classroom requests to specify the correct Google user ID",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc && crx3 -z extension.zip extension"
     },
     "author": "Matthew_Cash",
     "license": "ISC",
     "dependencies": {
         "@types/chrome": "0.0.122",
+        "crx3": "^1.1.2",
         "typescript": "^4.0.2"
     }
 }
