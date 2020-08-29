@@ -5,7 +5,7 @@ Useful if your primary Google account is not your education account
 
 ## Installation with Chrome Web Store
 
-Coming Soon, for now use [Manual Installation](t#manual-installation-from-releases)
+Coming Soon, for now use [Manual Installation](#manual-installation-from-releases)
 
 ## Manual Installation from Releases
 
