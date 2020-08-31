@@ -5,7 +5,7 @@ Useful if your primary Google account is not your education account
 
 ## Installation with Chrome Web Store
 
-Coming Soon, for now use [Manual Installation](#manual-installation-from-releases)
+Visit the [Chrome Web Store Listing](https://chrome.google.com/webstore/detail/google-classroom-user-red/lcapnmcmmiolacjfdlfpjabfgdacgikk)
 
 ## Manual Installation from Releases
 
